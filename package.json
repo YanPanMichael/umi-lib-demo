@@ -1,0 +1,10 @@
+{
+  "script": {
+    "doc:dev": "umi-lib doc dev",
+    "doc:build": "umi-lib doc build",
+    "build": "umi-lib build"
+  },
+  "devDependencies": {
+    "umi-library": "^1.6.0"
+  }
+}
