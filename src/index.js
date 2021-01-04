@@ -1,8 +1,11 @@
 import getTest from './bar';
+import ButtonCom from './button';
 
 function index() {
   const test = getTest();
   console.log(`${test}`)
+  const btn = ButtonCom();
+  console.log(btn);
 }
 
 export default index;

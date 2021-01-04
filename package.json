@@ -1,4 +1,11 @@
 {
+  "name": "umi-lib-demo",
+  "author": "YP",
+  "version": "1.0.0",
+  "respository": "https://github.com/YanPanMichael/umi-lib-demo.git",
+  "main": "./dist/index.js",
+  "module": "./dist/index.esm.js",
+  "unpkg": "./dist/index.umd.js",
   "scripts": {
     "doc:dev": "umi-lib doc dev",
     "doc:build": "umi-lib doc build",
@@ -9,5 +16,11 @@
   },
   "dependencies": {
     "classnames": "^2.2.6"
-  }
+  },
+  "peerDependencies": {
+    "react": "^16.8.1"
+  },
+  "file": [
+    "dist", "es", "lib"
+  ]
 }
