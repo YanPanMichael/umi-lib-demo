@@ -1,0 +1,53 @@
+{
+  "config": {
+    "title": "My Doc",
+    "description": "My awesome app using docz",
+    "menu": [],
+    "repository": false,
+    "native": false,
+    "codeSandbox": true,
+    "themeConfig": {},
+    "separator": "-",
+    "typescript": false,
+    "theme": "/Users/jiuzhou/Documents/FELearning/technology_imporve/umi-lib-demo/node_modules/docz-theme-umi/es/index.js",
+    "plugins": [
+      {},
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "props": [],
+  "entries": [
+    {
+      "key": "src/button.mdx",
+      "value": {
+        "name": "Button",
+        "route": "/",
+        "id": "8f5789ed061427117979d8e0b65d5dbe",
+        "filepath": "src/button.mdx",
+        "link": "",
+        "slug": "src-button",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "button",
+            "depth": 1,
+            "value": "Button"
+          },
+          {
+            "slug": "normal-button",
+            "depth": 2,
+            "value": "Normal Button"
+          },
+          {
+            "slug": "red-button",
+            "depth": 2,
+            "value": "Red Button"
+          }
+        ]
+      }
+    }
+  ]
+}
